@@ -1,0 +1,85 @@
+@import url('https://fonts.googleapis.com/css2?family=DM+Sans:wght@400;500;700&display=swap');
+
+*{
+    margin:0;
+    padding:0;
+}
+
+.pink{
+    background-color: palevioletred;
+}
+
+.textoPortada{
+    background-color: rgb(252, 188, 167);
+    padding: 45px;
+    margin: 0px;
+}
+
+.logoVertical{
+    width: 100%;
+}
+
+.redes{
+    background-color: black;
+}
+
+.titulo1{
+    background-color: rgb(252, 188, 167);
+    text-align: center;
+}
+
+.bioP2{
+    background-color: rgb(252, 188, 167);
+    text-align: center;
+}
+
+.bioP3{
+    background-color: rgb(252, 188, 167);
+    text-align: center;
+}
+
+.parrafos{
+    font-family:;
+    font-size: 20px;
+    text-align: center;
+    line-height: 30px;
+    letter-spacing: 1px;
+    margin-right: 80px;
+    margin-top: 30px;
+    margin-left: 80px;
+}
+
+.cuadroFotoBio{
+    background-color: black;
+    padding: 70px;
+    margin: 30px;
+}
+.fotoBioRojo{
+    width: 100%;
+}
+
+.redes{
+    text-align: center;
+}
+
+.proxFechas{
+    display: flex;
+    flex-direction:column;
+    text-align: center;
+    background-color:palevioletred;
+    padding: 30px;
+    margin: 50px;
+    margin-bottom: 230px;
+    
+}
+
+.fotoSacoRojo1{
+    width: 100%;
+    padding: 30px;
+    margin: 30px;
+}
+
+.videoYoutube{
+    margin-right: 50px;
+    margin-left: 50px;
+}
