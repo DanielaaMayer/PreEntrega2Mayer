@@ -1,50 +1,63 @@
-@import url("https://fonts.googleapis.com/css2?family=DM+Sans:wght@400;500;700&display=swap");
+@import url("https://fonts.googleapis.com/css2?family=DM+Sans:wght@400;500;700&family=Lato:ital@0;1&family=Lexend:wght@200&display=swap");
 * {
   margin: 0;
   padding: 0;
+  box-sizing: border-box;
 }
 
 .pink {
-  background-color: palevioletred;
+  background-color: lightpink;
 }
 
-.textoPortada {
-  background-color: rgb(252, 188, 167);
-  padding: 45px;
-  margin: 0px;
+html {
+  font-size: 120%;
+  font-family: "Lato", sans-serif;
 }
 
-.logoVertical {
-  width: 100%;
-}
-
-.redes {
+footer {
   background-color: black;
-}
-
-.titulo1 {
-  background-color: rgb(252, 188, 167);
+  padding: 30px;
   text-align: center;
 }
 
-.bioP2 {
-  background-color: rgb(252, 188, 167);
+.tituloPortada {
+  background-color: rgb(134, 0, 127);
+  color: rgb(238, 230, 238);
   text-align: center;
+  font-family: "Lato", sans-serif;
+  font-size: 50px;
+  padding: 20px;
 }
 
-.bioP3 {
-  background-color: rgb(252, 188, 167);
-  text-align: center;
+main section {
+  background-color: rgb(252, 236, 246);
+  font-family: "Lato", sans-serif;
 }
-
-.parrafos {
-  font-size: 20px;
+main section h1 {
+  background-color: rgb(134, 0, 127);
+  color: rgb(238, 230, 238);
+  text-align: center;
+  font-family: "Lato", sans-serif;
+  font-size: 50px;
+  padding: 20px;
+}
+main section .titulosbio {
+  color: rgb(151, 2, 126);
+  text-align: center;
+  font-size: 50px;
+}
+main section .parrafos {
+  font-size: 25px;
   text-align: center;
   line-height: 30px;
   letter-spacing: 1px;
   margin-right: 80px;
   margin-top: 30px;
   margin-left: 80px;
+}
+
+.logoVertical {
+  width: 100%;
 }
 
 .cuadroFotoBio {
@@ -57,15 +70,46 @@
   width: 100%;
 }
 
-.redes {
+.proxFechas {
+  display: flex;
+  flex-direction: column;
   text-align: center;
+  font-size: 25px;
+  padding: 30px;
+  margin: 50px;
+  margin-bottom: 230px;
+}
+
+.fotoSacoRojo1 {
+  width: 100%;
+  padding: 30px;
+  margin: 30px;
+}
+
+.videoYoutube {
+  margin-right: 50px;
+  margin-left: 40px;
+}
+
+.logoVertical {
+  width: 100%;
+}
+
+.cuadroFotoBio {
+  background-color: black;
+  padding: 70px;
+  margin: 30px;
+}
+
+.fotoBioRojo {
+  width: 100%;
 }
 
 .proxFechas {
   display: flex;
   flex-direction: column;
   text-align: center;
-  background-color: palevioletred;
+  font-size: 25px;
   padding: 30px;
   margin: 50px;
   margin-bottom: 230px;
