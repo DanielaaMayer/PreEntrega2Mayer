@@ -14,32 +14,32 @@ html {
   font-family: "Lato", sans-serif;
 }
 
+h1 {
+  background-color: rgb(134, 0, 127);
+  color: rgb(238, 230, 238);
+  text-align: center;
+  font-family: "Lato", sans-serif;
+  font-size: 50px;
+  padding: 20px;
+}
+
 footer {
   background-color: black;
   padding: 30px;
   text-align: center;
 }
 
-.tituloPortada {
-  background-color: rgb(134, 0, 127);
-  color: rgb(238, 230, 238);
-  text-align: center;
-  font-family: "Lato", sans-serif;
-  font-size: 50px;
-  padding: 20px;
-}
-
+/*.tituloPortada{
+        background-color: rgb(134, 0, 127);
+        color:rgb(238, 230, 238);
+        text-align: center;
+        font-family: 'Lato', sans-serif;
+        font-size: 50px;
+        padding: 20px;
+}*/
 main section {
   background-color: rgb(252, 236, 246);
   font-family: "Lato", sans-serif;
-}
-main section h1 {
-  background-color: rgb(134, 0, 127);
-  color: rgb(238, 230, 238);
-  text-align: center;
-  font-family: "Lato", sans-serif;
-  font-size: 50px;
-  padding: 20px;
 }
 main section .titulosbio {
   color: rgb(151, 2, 126);
@@ -54,10 +54,6 @@ main section .parrafos {
   margin-right: 80px;
   margin-top: 30px;
   margin-left: 80px;
-}
-
-.logoVertical {
-  width: 100%;
 }
 
 .cuadroFotoBio {
@@ -91,37 +87,52 @@ main section .parrafos {
   margin-left: 40px;
 }
 
-.logoVertical {
-  width: 100%;
+body .logoVertical {
+  max-width: 40%;
+  max-height: 40%;
+  width: auto;
+  height: auto;
+  margin-left: auto;
+  margin-right: auto;
+  margin-top: -70px;
 }
-
-.cuadroFotoBio {
+body .container-img {
+  display: flex;
+  align-items: center;
+}
+body .row {
+  display: flex;
+  justify-content: center;
+}
+body #carouselExampleFade {
+  max-width: 40%;
+  max-height: 40%;
+  width: auto;
+  height: auto;
+}
+body .cuadroFotoBio {
   background-color: black;
   padding: 70px;
   margin: 30px;
 }
-
-.fotoBioRojo {
+body .fotoBioRojo {
   width: 100%;
 }
-
-.proxFechas {
+body .proxFechas {
   display: flex;
   flex-direction: column;
   text-align: center;
   font-size: 25px;
   padding: 30px;
   margin: 50px;
-  margin-bottom: 230px;
+  margin-bottom: 50x;
 }
-
-.fotoSacoRojo1 {
+body .fotoSacoRojo1 {
   width: 100%;
   padding: 30px;
   margin: 30px;
 }
-
-.videoYoutube {
+body .videoYoutube {
   margin-right: 50px;
   margin-left: 40px;
 }/*# sourceMappingURL=sassEstilo.css.map */

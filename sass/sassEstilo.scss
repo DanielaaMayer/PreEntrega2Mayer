@@ -1,39 +1,67 @@
+@import "variableGlobal";
+
 @import "generales";
 @import "main";
 @import "falta-anidar";
 
-.logoVertical{
-    width: 100%;
-}
+body {
+    .logoVertical {
+        max-width: 40%;
+        max-height: 40%;
+        width: auto;
+        height: auto;
+        margin-left: auto;
+        margin-right: auto;
+        margin-top: -70px;
+    }
 
-.cuadroFotoBio{
-    background-color: black;
-    padding: 70px;
-    margin: 30px;
-}
+    .container-img {
+        display: flex;
+        align-items: center;
+    }
 
-.fotoBioRojo{
-    width: 100%;
-}
+    .row {
+        display: flex;
+        justify-content: center;
+    }
+
+    #carouselExampleFade {
+        max-width: 40%;
+        max-height: 40%;
+        width: auto;
+        height: auto;
+
+    }
+
+    .cuadroFotoBio {
+        background-color: black;
+        padding: 70px;
+        margin: 30px;
+    }
+
+    .fotoBioRojo {
+        width: 100%;
+    }
 
 
-.proxFechas{
-    display: flex;
-    flex-direction:column;
-    text-align: center;
-    font-size: 25px;
-    padding: 30px;
-    margin: 50px;
-    margin-bottom: 230px;
-}
+    .proxFechas {
+        display: flex;
+        flex-direction: column;
+        text-align: center;
+        font-size: 25px;
+        padding: 30px;
+        margin: 50px;
+        margin-bottom: 50x;
+    }
 
-.fotoSacoRojo1{
-    width: 100%;
-    padding: 30px;
-    margin: 30px;
-}
+    .fotoSacoRojo1 {
+        width: 100%;
+        padding: 30px;
+        margin: 30px;
+    }
 
-.videoYoutube{
-    margin-right: 50px;
-    margin-left: 40px;
+    .videoYoutube {
+        margin-right: 50px;
+        margin-left: 40px;
+    }
 }
