@@ -38,3 +38,19 @@ footer {
         font-size: 50px;
         padding: 20px;
 }*/
+
+.videoYoutube{
+    
+}
+
+.fotosContacto{
+        display: grid;
+        grid-template-columns: repeat(3, 1fr);
+        grid-gap: 10px;
+
+    img {
+        width: 100%;
+        height: auto;
+        display: block;
+    }
+}

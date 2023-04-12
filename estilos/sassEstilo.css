@@ -37,6 +37,17 @@ footer {
         font-size: 50px;
         padding: 20px;
 }*/
+.fotosContacto {
+  display: grid;
+  grid-template-columns: repeat(3, 1fr);
+  grid-gap: 10px;
+}
+.fotosContacto img {
+  width: 100%;
+  height: auto;
+  display: block;
+}
+
 main section {
   background-color: rgb(252, 236, 246);
   font-family: "Lato", sans-serif;
@@ -87,14 +98,14 @@ main section .parrafos {
   margin-left: 40px;
 }
 
-body .logoVertical {
+body .logoHorizontal {
   max-width: 40%;
   max-height: 40%;
   width: auto;
   height: auto;
   margin-left: auto;
   margin-right: auto;
-  margin-top: -70px;
+  margin-top: 10px;
 }
 body .container-img {
   display: flex;
