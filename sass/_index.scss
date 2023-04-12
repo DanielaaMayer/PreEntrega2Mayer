@@ -1,0 +1,28 @@
+body{
+    .logoHorizontal{
+        max-width: 40%;
+        max-height: 40%;
+        width: auto;
+        height: auto;
+        margin-left: auto;
+        margin-right: auto;
+        margin-top: 10px;
+    }
+}
+
+#carouselExampleFade{
+    max-width: 40%;
+    max-height: 40%;
+    width: auto;
+    height: auto;
+}
+
+.container-img{
+    display: flex;
+    align-items: center;
+}
+
+.row {
+    display: flex;
+    justify-content: center;
+}

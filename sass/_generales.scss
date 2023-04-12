@@ -24,10 +24,11 @@ h1{
     padding: 20px;
 }
 
-footer {
+footer{
     background-color: black;
     padding: 30px;
-    text-align: center;
+    display: flex;
+    justify-content: center;
 }
 
 /*.tituloPortada{
@@ -39,18 +40,3 @@ footer {
         padding: 20px;
 }*/
 
-.videoYoutube{
-    
-}
-
-.fotosContacto{
-        display: grid;
-        grid-template-columns: repeat(3, 1fr);
-        grid-gap: 10px;
-
-    img {
-        width: 100%;
-        height: auto;
-        display: block;
-    }
-}
