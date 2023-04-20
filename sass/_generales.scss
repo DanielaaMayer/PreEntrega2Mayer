@@ -7,7 +7,21 @@
 }
 
 .pink{
-    background-color: lightpink;
+    background-color: rgb(26, 1, 58);
+}
+
+.navbar-light{
+        .navbar-brand{
+            color: aliceblue;
+        }
+        .navbar-nav{
+            .nav-link.active{
+                    color: aliceblue;
+            }
+            .nav-link{
+                color: aliceblue;
+            }
+    }
 }
 
 html{
@@ -15,28 +29,38 @@ html{
     font-family: 'Lato', sans-serif;
 }
 
+.titulosSecundarios{
+    color: rgb(151, 2, 126);
+    text-align: center;
+    font-size: 25px;
+}
+
+.parrafos{
+    font-size: 15px;
+    text-align: center;
+    line-height: 30px;
+    letter-spacing: 1px;
+    margin-right: 80px;
+    margin-top: 30px;
+    margin-left: 80px;
+}
+
 h1{
     background-color: rgb(134, 0, 127);
     color:rgb(238, 230, 238);
     text-align: center;
     font-family: 'Lato', sans-serif;
-    font-size: 50px;
-    padding: 20px;
+    font-size: 30px;
+    padding: 10px;
 }
+
+
 
 footer{
     background-color: black;
-    padding: 30px;
+    padding: 10px;
     display: flex;
     justify-content: center;
+    margin-top: 10px;
 }
-
-/*.tituloPortada{
-        background-color: rgb(134, 0, 127);
-        color:rgb(238, 230, 238);
-        text-align: center;
-        font-family: 'Lato', sans-serif;
-        font-size: 50px;
-        padding: 20px;
-}*/
 

@@ -1,4 +1,5 @@
 @import url("https://fonts.googleapis.com/css2?family=DM+Sans:wght@400;500;700&family=Lato:ital@0;1&family=Lexend:wght@200&display=swap");
+@import url("https://fonts.googleapis.com/css2?family=DM+Sans:wght@400;500;700&family=Lato:ital@0;1&family=Lexend:wght@200&display=swap");
 * {
   margin: 0;
   padding: 0;
@@ -6,7 +7,17 @@
 }
 
 .pink {
-  background-color: lightpink;
+  background-color: rgb(26, 1, 58);
+}
+
+.navbar-light .navbar-brand {
+  color: aliceblue;
+}
+.navbar-light .navbar-nav .nav-link.active {
+  color: aliceblue;
+}
+.navbar-light .navbar-nav .nav-link {
+  color: aliceblue;
 }
 
 html {
@@ -14,52 +25,14 @@ html {
   font-family: "Lato", sans-serif;
 }
 
-h1 {
-  background-color: rgb(134, 0, 127);
-  color: rgb(238, 230, 238);
-  text-align: center;
-  font-family: "Lato", sans-serif;
-  font-size: 50px;
-  padding: 20px;
-}
-
-footer {
-  background-color: black;
-  padding: 30px;
-  display: flex;
-  justify-content: center;
-}
-
-/*.tituloPortada{
-        background-color: rgb(134, 0, 127);
-        color:rgb(238, 230, 238);
-        text-align: center;
-        font-family: 'Lato', sans-serif;
-        font-size: 50px;
-        padding: 20px;
-}*/
-.fotosContacto {
-  display: grid;
-  grid-template-columns: repeat(3, 1fr);
-  grid-gap: 10px;
-}
-.fotosContacto img {
-  width: 100%;
-  height: auto;
-  display: block;
-}
-
-main section {
-  background-color: rgb(252, 236, 246);
-  font-family: "Lato", sans-serif;
-}
-main section .titulosbio {
+.titulosSecundarios {
   color: rgb(151, 2, 126);
   text-align: center;
-  font-size: 50px;
-}
-main section .parrafos {
   font-size: 25px;
+}
+
+.parrafos {
+  font-size: 15px;
   text-align: center;
   line-height: 30px;
   letter-spacing: 1px;
@@ -68,35 +41,21 @@ main section .parrafos {
   margin-left: 80px;
 }
 
-.cuadroFotoBio {
-  background-color: black;
-  padding: 70px;
-  margin: 30px;
-}
-
-.fotoBioRojo {
-  width: 100%;
-}
-
-.proxFechas {
-  display: flex;
-  flex-direction: column;
+h1 {
+  background-color: rgb(134, 0, 127);
+  color: rgb(238, 230, 238);
   text-align: center;
-  font-size: 25px;
-  padding: 30px;
-  margin: 50px;
-  margin-bottom: 230px;
+  font-family: "Lato", sans-serif;
+  font-size: 30px;
+  padding: 10px;
 }
 
-.fotoSacoRojo1 {
-  width: 100%;
-  padding: 30px;
-  margin: 30px;
-}
-
-.videoYoutube {
+footer {
+  background-color: black;
+  padding: 10px;
   display: flex;
   justify-content: center;
+  margin-top: 10px;
 }
 
 body .logoHorizontal {
@@ -108,29 +67,72 @@ body .logoHorizontal {
   margin-right: auto;
   margin-top: 10px;
 }
-body .container-img {
-  display: flex;
-  align-items: center;
-}
-body .row {
-  display: flex;
-  justify-content: center;
-}
-body #carouselExampleFade {
+
+#carouselExampleFade {
   max-width: 40%;
   max-height: 40%;
   width: auto;
   height: auto;
 }
-body .cuadroFotoBio {
-  background-color: black;
-  padding: 70px;
-  margin: 30px;
+
+.container-img {
+  display: flex;
+  align-items: center;
 }
-body .fotoBioRojo {
+
+.row {
+  display: flex;
+  justify-content: center;
   width: 100%;
 }
-body .proxFechas {
+
+main section {
+  background-color: rgb(252, 236, 246);
+  font-family: "Lato", sans-serif;
+}
+main section .cuadroFotoBio {
+  width: 100%;
+  height: 100%;
+  margin: 0 auto;
+  display: flex;
+  justify-content: center;
+  align-items: center;
+}
+main section .cuadroFotoBio .fotoBioCara {
+  width: 30%;
+  height: 30%;
+}
+
+.videoYoutube {
+  display: flex;
+  justify-content: center;
+}
+
+.cuadroConsultas .form-label {
+  font-size: 18px;
+  margin-left: 155px;
+}
+.cuadroConsultas .form-control {
+  display: flex;
+  width: 80%;
+  height: 80%;
+  margin-right: auto;
+  margin-left: auto;
+  margin-bottom: 10px;
+}
+
+.fotosContacto {
+  display: grid;
+  grid-template-columns: repeat(3, 1fr);
+  grid-gap: 10px;
+}
+.fotosContacto img {
+  width: 100%;
+  height: auto;
+  display: block;
+}
+
+.proxFechas {
   display: flex;
   flex-direction: column;
   text-align: center;
@@ -138,13 +140,4 @@ body .proxFechas {
   padding: 30px;
   margin: 50px;
   margin-bottom: 50x;
-}
-body .fotoSacoRojo1 {
-  width: 100%;
-  padding: 30px;
-  margin: 30px;
-}
-body .videoYoutube {
-  margin-right: 50px;
-  margin-left: 40px;
 }/*# sourceMappingURL=sassEstilo.css.map */

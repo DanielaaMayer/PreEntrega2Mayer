@@ -1,4 +1,19 @@
-.fotosContacto{
+.cuadroConsultas{
+    .form-label{
+        font-size: 18px;
+        margin-left: 155px;
+    }
+    .form-control{
+        display: flex;
+        width: 80%;
+        height: 80%;
+        margin-right: auto;
+        margin-left: auto;
+        margin-bottom: 10px;
+    }
+}
+
+.fotosContacto {
     display: grid;
     grid-template-columns: repeat(3, 1fr);
     grid-gap: 10px;
