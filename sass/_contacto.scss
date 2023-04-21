@@ -1,15 +1,18 @@
+@import url('https://fonts.googleapis.com/css2?family=DM+Sans:wght@400;500;700&family=Lato:ital@0;1&family=Lexend:wght@200&display=swap');
+
 .cuadroConsultas{
     .form-label{
         font-size: 18px;
-        margin-left: 155px;
+        font-family: 'Lato', sans-serif;
+        margin-left: 40px;
     }
     .form-control{
         display: flex;
-        width: 80%;
-        height: 80%;
+        width: 95%;
+        height: 95%;
+        margin-bottom: 15px;
         margin-right: auto;
         margin-left: auto;
-        margin-bottom: 10px;
     }
 }
 
@@ -17,6 +20,8 @@
     display: grid;
     grid-template-columns: repeat(3, 1fr);
     grid-gap: 10px;
+    margin-right: 20px;
+    margin-left: 20px;
 
     img {
         width: 100%;

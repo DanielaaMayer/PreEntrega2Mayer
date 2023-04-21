@@ -6,21 +6,27 @@
     box-sizing: border-box;
 }
 
-.pink{
+.blue{
     background-color: rgb(26, 1, 58);
 }
 
 .navbar-light{
-        .navbar-brand{
+    .navbar-brand{
+        color: aliceblue;
+        &:hover{
+            color: rgb(255, 126, 210);
+        }
+    }
+    .navbar-nav{
+        .nav-link.active{
             color: aliceblue;
         }
-        .navbar-nav{
-            .nav-link.active{
-                    color: aliceblue;
-            }
-            .nav-link{
-                color: aliceblue;
-            }
+        .nav-link{
+            color: aliceblue;
+            &:hover{
+                color: rgb(254, 127, 210);
+            } 
+        }
     }
 }
 
@@ -36,7 +42,7 @@ html{
 }
 
 .parrafos{
-    font-size: 15px;
+    font-size: 18px;
     text-align: center;
     line-height: 30px;
     letter-spacing: 1px;

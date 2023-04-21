@@ -1,23 +1,31 @@
 @import url("https://fonts.googleapis.com/css2?family=DM+Sans:wght@400;500;700&family=Lato:ital@0;1&family=Lexend:wght@200&display=swap");
 @import url("https://fonts.googleapis.com/css2?family=DM+Sans:wght@400;500;700&family=Lato:ital@0;1&family=Lexend:wght@200&display=swap");
+@import url("https://fonts.googleapis.com/css2?family=DM+Sans:wght@400;500;700&family=Lato:ital@0;1&family=Lexend:wght@200&display=swap");
+@import url("https://fonts.googleapis.com/css2?family=DM+Sans:wght@400;500;700&family=Lato:ital@0;1&family=Lexend:wght@200&display=swap");
 * {
   margin: 0;
   padding: 0;
   box-sizing: border-box;
 }
 
-.pink {
+.blue {
   background-color: rgb(26, 1, 58);
 }
 
 .navbar-light .navbar-brand {
   color: aliceblue;
 }
+.navbar-light .navbar-brand:hover {
+  color: rgb(255, 126, 210);
+}
 .navbar-light .navbar-nav .nav-link.active {
   color: aliceblue;
 }
 .navbar-light .navbar-nav .nav-link {
   color: aliceblue;
+}
+.navbar-light .navbar-nav .nav-link:hover {
+  color: rgb(254, 127, 210);
 }
 
 html {
@@ -32,7 +40,7 @@ html {
 }
 
 .parrafos {
-  font-size: 15px;
+  font-size: 18px;
   text-align: center;
   line-height: 30px;
   letter-spacing: 1px;
@@ -110,21 +118,24 @@ main section .cuadroFotoBio .fotoBioCara {
 
 .cuadroConsultas .form-label {
   font-size: 18px;
-  margin-left: 155px;
+  font-family: "Lato", sans-serif;
+  margin-left: 40px;
 }
 .cuadroConsultas .form-control {
   display: flex;
-  width: 80%;
-  height: 80%;
+  width: 95%;
+  height: 95%;
+  margin-bottom: 15px;
   margin-right: auto;
   margin-left: auto;
-  margin-bottom: 10px;
 }
 
 .fotosContacto {
   display: grid;
   grid-template-columns: repeat(3, 1fr);
   grid-gap: 10px;
+  margin-right: 20px;
+  margin-left: 20px;
 }
 .fotosContacto img {
   width: 100%;
@@ -136,8 +147,11 @@ main section .cuadroFotoBio .fotoBioCara {
   display: flex;
   flex-direction: column;
   text-align: center;
-  font-size: 25px;
+  font-size: 20px;
+  font-family: "Lato", sans-serif;
   padding: 30px;
   margin: 50px;
   margin-bottom: 50x;
+  line-height: 30px;
+  letter-spacing: 1px;
 }/*# sourceMappingURL=sassEstilo.css.map */
