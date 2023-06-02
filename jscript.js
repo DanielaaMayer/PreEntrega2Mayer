@@ -13,5 +13,16 @@ if (hablemos = "si"){
     console.warn ("Pués cuando gustes, puedes volver");
 }*/ 
 
+preguntarGenero();
+
+function preguntarGenero (){
+    let genero = prompt ("¿Cuál es tu género de música electrónica preferido?");
+    if (genero == "house" || genero == "tech house" || genero == "progressive" || genero == "techno" || genero == "melodic techno"){
+        alert ("Excelente elección");
+    }else{
+        alert ("No es un género válido");
+        return preguntarGenero();
+        }
+}
 
 
