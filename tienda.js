@@ -5,7 +5,12 @@ const tracksTechHouse = (array, elemento) =>{
 } 
 
 const comprarTrack = (producto) => {
-
+    const existeEnArray = evaluadorDeExistencia (productos, producto)
+    if(existeEnArray===-1){
+        productos.push(producto)
+    }else {
+        console.warn("Ese track ya fue descargado")
+    }
 }
 
 const loopCompra = () => {
