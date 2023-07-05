@@ -1,23 +1,44 @@
-const tracks = []
-
-const tracksTechHouse = (array, elemento) =>{
-    return array.indexOf(elemento)
-} 
-
-const comprarTrack = (producto) => {
-    const existeEnArray = evaluadorDeExistencia (productos, producto)
-    if(existeEnArray===-1){
-        productos.push(producto)
-    }else {
-        console.warn("Ese track ya fue descargado")
+const productos = []
+const carrito = {
+    totalDeCompra = 0,
+    tracksEnCarrito: [],
+    calcularTotal: function(){
+        this.totalDeCompra = 0
+        for(let i=0; i<this.tracksEnCarrito.lenght; i++){
+            this.totalDeCompra+= this.tracksEnCarrito[i].precio
+        }
     }
 }
 
-const loopCompra = () => {
-    let decidoAgregar = confirm ("¿Desea agregar otro track a la lista de descargas?")
-    while (decidoAgregar){
-        let prod = prompt ("Nombre del track")
-        agregarProductos(prod)
-        decidoAgregar = confirm ("¿Desea agregar otro track a la lista de descargas?")
+
+
+
+class Track {
+    constructor (nombre, id, precio){
+        this.nombre = nombre
+        this.id = id
+        this.precio = precio
     }
 }
+
+const crearTrack = (nombre, id, precio)=>{
+    productos.push(new Track(nombre, id, precio))
+    console.log(productos)
+}
+
+const moverTrackACarrito = (trackID, arrayProductos)=>{
+    for(let i=0; i<arrayProductos.lenght; i++){
+        let trackActual = arrayProductos[i]
+        if(trackActual.id === trackID){
+            carrito.push(trackActual)
+            break;
+        }
+    } 
+}
+
+crearTrack("Innerbloom", 1, 10)
+crearTrack("Extassy", 2, 10)
+crearTrack("Todo Homen", 3, 10)
+crearTrack("Purness", 4, 10)
+
+moverTrackACarrito(1, productos)
