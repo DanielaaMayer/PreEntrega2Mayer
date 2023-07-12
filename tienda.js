@@ -1,6 +1,8 @@
+/* pre entrega 2*/
+
 const productos = []
 const carrito = {
-    totalDeCompra = 0,
+    totalDeCompra : 0,
     tracksEnCarrito: [],
     calcularTotal: function(){
         this.totalDeCompra = 0
@@ -9,8 +11,6 @@ const carrito = {
         }
     }
 }
-
-
 
 
 class Track {
@@ -38,7 +38,24 @@ const moverTrackACarrito = (trackID, arrayProductos)=>{
 
 crearTrack("Innerbloom", 1, 10)
 crearTrack("Extassy", 2, 10)
-crearTrack("Todo Homen", 3, 10)
+crearTrack("Todo Homem", 3, 10)
 crearTrack("Purness", 4, 10)
 
 moverTrackACarrito(1, productos)
+
+
+fetch('tracks.json')
+.then(function(response) {
+    return response.json();
+})
+.then(function(data) {
+    let tracks = data.tracks;
+})
+    tracks.forEach(function(track) {
+        let nombre = track.nombre;
+        let precio = track.precio;
+        let foto = track.img;
+        let productor = track.productor;
+        let duracion = track.duracion;
+        let sello = track.sello;
+})

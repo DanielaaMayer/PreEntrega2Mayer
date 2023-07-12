@@ -1,4 +1,4 @@
-const bienvenidos = alert ("Bienvenid@ groover@");
+/*const bienvenidos = alert ("Bienvenid@ groover@");
 
 let nombreVisitante = prompt ("¿Contame, cuál es tu nombre?");
 let saludoAlVisitante = alert ("Mucho gusto " + nombreVisitante);
@@ -13,7 +13,7 @@ if (hablemos = "si"){
     console.warn ("Pués cuando gustes, puedes volver");
 }*/ 
 
-preguntarGenero();
+/*preguntarGenero();
 
 function preguntarGenero (){
     let genero = prompt ("¿Cuál es tu género de música electrónica preferido?");
@@ -22,7 +22,5 @@ function preguntarGenero (){
     }else{
         alert ("No es un género válido");
         return preguntarGenero();
-        }
+    }
 }
-
-
