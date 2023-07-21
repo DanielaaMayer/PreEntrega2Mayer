@@ -1,39 +1,47 @@
 {
     "tracks": [
     {
+        "id": 1,
         "nombre": "Innerbloom",
         "precio": "US$ 10",
-        "img": "./",
+        "img": "../images/innerbloom.png",
         "productor": "Rufus du Sol",
         "duracion": "9:38",
-        "sello": "Bloom"
+        "sello": "Bloom",
+        "stock": 20
     },
 
     {
+        "id": 2,
         "nombre": "Extassy",
         "precio": "US$ 10",
-        "img": "",
+        "img": "../images/extassy.png",
         "productor": "Sebastien Leger",
         "duracion": "9:43",
-        "sello": "Extassy / In A Distorted Galaxy"
+        "sello": "Extassy / In A Distorted Galaxy",
+        "stock": 20
     },
 
     {
+        "id": 3,
         "nombre": "Todo homem",
         "precio": "US$ 10",
-        "img": " ",
+        "img": "../images/todoHomem.png",
         "productor": "Zeca Veloso, (remix Antdot & Maz BR Remix)",
         "duracion": "7:16",
-        "sello": "Todo Homem (Antdot & Maz (BR) Remix)"
+        "sello": "Todo Homem (Antdot & Maz (BR) Remix)",
+        "stock": 20
     },
 
     {
+        "id": 4,
         "nombre": "Purness",
         "precio": "US$ 10",
-        "img": " ",
+        "img": "../images/purness.png",
         "productor": "John Cosani",
         "duracion": "6:56",
-        "sello": ""
+        "sello": "",
+        "stock": 20
     }
     ]
 }

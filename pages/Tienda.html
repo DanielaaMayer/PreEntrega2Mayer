@@ -1,18 +1,21 @@
 <!DOCTYPE html>
 <html lang="en">
+
 <head>
     <meta charset="UTF-8">
     <meta http-equiv="X-UA-Compatible" content="IE=edge">
     <meta name="viewport" content="width=device-width, initial-scale=1.0">
-    <meta name="description" content="Próximas fechas de Dj la argentina China Mey"/>
-    <meta name="keywords" content="dj, china mey, dj woman, dj argentina, mujeres en la mùsica, música electrónica, djs mujeres, eventos, fechas, próximas fechas"/>
+    <meta name="description" content="Próximas fechas de Dj la argentina China Mey" />
+    <meta name="keywords"
+        content="dj, china mey, dj woman, dj argentina, mujeres en la mùsica, música electrónica, djs mujeres, eventos, fechas, próximas fechas" />
 
-    <link rel="icon" type="image/png" href="../images/favicon-16x16.png"/>
-    <link href="https://cdn.jsdelivr.net/npm/bootstrap@5.0.2/dist/css/bootstrap.min.css" rel="stylesheet" integrity="sha384-EVSTQN3/azprG1Anm3QDgpJLIm9Nao0Yz1ztcQTwFspd3yD65VohhpuuCOmLASjC" crossorigin="anonymous">
+    <link rel="icon" type="image/png" href="../images/favicon-16x16.png" />
+    <link href="https://cdn.jsdelivr.net/npm/bootstrap@5.0.2/dist/css/bootstrap.min.css" rel="stylesheet"
+        integrity="sha384-EVSTQN3/azprG1Anm3QDgpJLIm9Nao0Yz1ztcQTwFspd3yD65VohhpuuCOmLASjC" crossorigin="anonymous">
     <link rel="stylesheet" href="../estilos/sassEstilo.css">
     <title>TIENDA</title>
-    
 </head>
+
 
 <body>
     <nav class="navbar navbar-expand-lg navbar-light blue">
@@ -32,7 +35,8 @@
                         <a class="nav-link active" aria-current="page" href="./Presentaciones.html">Presentaciones</a>
                     </li>
                     <li class="nav-item">
-                        <a class="nav-link active" aria-current="page" href="./Próximos eventos.html">Próximos Eventos</a>
+                        <a class="nav-link active" aria-current="page" href="./Próximos eventos.html">Próximos
+                            Eventos</a>
                     </li>
                     <li class="nav-item">
                         <a class="nav-link" href="./Contacto.html">Contacto</a>
@@ -44,16 +48,35 @@
             </div>
     </nav>
 
+
     <main>
-        <section id="TrackEnTienda">
+        <section id="TracksEnTienda">
             <h1>Tienda de tracks</h1>
-            <button id="track1">Innerbloom</button>
-            <button id="track2">Extassy</button>
-            <button id="track3">Todo homen</button>
-            <button id="track4">Purness</button>
+            <table id="tabla">
+                <thead>
+                    <tr>
+                        <td>ID</td>
+                        <td>Track</td>
+                        <td>Precio</td>
+                        <td>Stock</td>
+                        <td class="logo-track" colspan="2">Foto</td>
+                        <td></td>
+                    </tr>
+                </thead>
+                <tbody>
+                </tbody>
+            </table>
         </section>
+        <button onclick="{confirmarCompra()}">Confirmar</button>
+
+        <ul id="mostrar-detalle">
+            
+        </ul>
+
+        <h4 id="mostrar-total"></h4>
     </main>
     <script src="../tienda.js"></script>
 </body>
 
 </html>
+

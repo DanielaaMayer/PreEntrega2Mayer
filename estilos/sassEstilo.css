@@ -155,3 +155,82 @@ main section .cuadroFotoBio .fotoBioCara {
   line-height: 30px;
   letter-spacing: 1px;
 }/*# sourceMappingURL=sassEstilo.css.map */
+
+/*estilos para tienda tabla html*/
+/* Estilos para la tabla */
+#tabla {
+  width: 100%;
+  border-collapse: collapse;
+  margin-top: 20px;
+}
+
+#tabla th,
+#tabla td {
+  border: 1px solid #ccc;
+  padding: 8px;
+  text-align: center;
+}
+
+.logo-track {s
+  width: 50px;
+}
+
+/* Estilos para la navegación */
+.navbar {
+  background-color: #2196F3;
+  color: #fff;
+}
+
+.navbar-brand,
+.navbar-nav .nav-link {
+  color: #fff;
+  text-decoration: none;
+}
+
+.navbar-brand {
+  font-weight: bold;
+}
+
+.navbar-toggler-icon {
+  background-color: #fff;
+}
+
+/* Estilos para el botón Confirmar */
+button {
+  display: block;
+  margin: 20px auto;
+  padding: 10px 20px;
+  background-color: #2196F3;
+  color: #fff;
+  border: none;
+  border-radius: 5px;
+  cursor: pointer;
+}
+
+/* Estilos para el encabezado de la tienda */
+#TracksEnTienda h1 {
+  text-align: center;
+}
+
+/* Estilos para la sección de la tienda */
+#TracksEnTienda {
+  margin-top: 30px;
+}
+
+/* Estilos para la sección del carrito de compras */
+#mostrar-detalle {
+  list-style: none;
+  padding: 0;
+}
+
+#mostrar-detalle li {
+  margin-bottom: 5px;
+}
+
+/* Estilos para el total del carrito de compras */
+#mostrar-total {
+  text-align: center;
+  margin-top: 20px;
+  font-size: 1.2em;
+  font-weight: bold;
+}
